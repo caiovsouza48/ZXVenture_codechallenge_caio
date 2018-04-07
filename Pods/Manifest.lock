@@ -1,0 +1,35 @@
+PODS:
+  - Apollo (0.7.0):
+    - Apollo/Core (= 0.7.0)
+  - Apollo/Core (0.7.0)
+  - KRLCollectionViewGridLayout (1.0.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Apollo
+  - KRLCollectionViewGridLayout (~> 1.0.0)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Apollo
+    - KRLCollectionViewGridLayout
+    - RxCocoa
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Apollo: d6649ac06168660e70c6226c4eadfc0770791ba5
+  KRLCollectionViewGridLayout: 147113b086d446d50b5b8aa907a1c2bc19e89836
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 5769b4ea2f8cb8f4e08610cdc9aba5af96c31deb
+
+COCOAPODS: 1.5.0.beta.1

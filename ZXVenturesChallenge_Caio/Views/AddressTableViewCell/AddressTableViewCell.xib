@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3z2-SX-b8e" customClass="AddressTableViewCell" customModule="ZXVenturesChallenge_Caio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3z2-SX-b8e" id="RhN-FG-f7K">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marker" translatesAutoresizingMaskIntoConstraints="NO" id="oxE-Yu-scP">
+                        <rect key="frame" x="20" y="14" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="80U-Tx-IfS"/>
+                            <constraint firstAttribute="height" constant="16" id="kew-D7-Fue"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cerrada Palomas, 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fec-ky-hHK">
+                        <rect key="frame" x="41" y="11" width="318" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oxE-Yu-scP" firstAttribute="centerY" secondItem="RhN-FG-f7K" secondAttribute="centerY" id="3Wm-Oa-KC3"/>
+                    <constraint firstItem="fec-ky-hHK" firstAttribute="centerY" secondItem="oxE-Yu-scP" secondAttribute="centerY" id="6qy-jG-xIr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fec-ky-hHK" secondAttribute="trailing" id="KVk-4u-jXl"/>
+                    <constraint firstItem="oxE-Yu-scP" firstAttribute="leading" secondItem="RhN-FG-f7K" secondAttribute="leading" constant="20" id="Nfa-T1-KS8"/>
+                    <constraint firstItem="fec-ky-hHK" firstAttribute="leading" secondItem="oxE-Yu-scP" secondAttribute="trailing" constant="5" id="wRi-Mo-GiU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="adressTitleLabel" destination="fec-ky-hHK" id="tWF-RV-j9C"/>
+            </connections>
+            <point key="canvasLocation" x="91" y="197"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="marker" width="50" height="50"/>
+    </resources>
+</document>
